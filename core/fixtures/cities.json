@@ -1,0 +1,1505 @@
+[
+   {
+      "fields" : {
+         "ibge_id" : "2413409",
+         "name" : "Serra Negra do Norte",
+         "state" : "RN"
+      },
+      "model" : "core.cities",
+      "pk" : 3
+   },
+   {
+      "pk" : 4,
+      "fields" : {
+         "state" : "RN",
+         "name" : "Areia Branca",
+         "ibge_id" : "2401107"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "name" : "ArÃ­Âªs",
+         "ibge_id" : "2401206",
+         "state" : "RN"
+      },
+      "pk" : 5
+   },
+   {
+      "pk" : 6,
+      "fields" : {
+         "state" : "RN",
+         "name" : "Campo Redondo",
+         "ibge_id" : "2402105"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "pk" : 7,
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "name" : "Cerro CorÃ¡",
+         "ibge_id" : "2402709"
+      }
+   },
+   {
+      "pk" : 8,
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "name" : "Felipe Guerra",
+         "ibge_id" : "2403707"
+      }
+   },
+   {
+      "pk" : 9,
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2413102",
+         "name" : "Senador ElÃ³i de Souza"
+      }
+   },
+   {
+      "pk" : 10,
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "name" : "Serra do Mel",
+         "ibge_id" : "2413359"
+      }
+   },
+   {
+      "pk" : 11,
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2404804",
+         "name" : "Ipueira"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2405405",
+         "name" : "Japi"
+      },
+      "pk" : 12
+   },
+   {
+      "pk" : 13,
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "name" : "Maxaranguape",
+         "ibge_id" : "2407500"
+      }
+   },
+   {
+      "pk" : 14,
+      "model" : "core.cities",
+      "fields" : {
+         "ibge_id" : "2408102",
+         "name" : "Natal",
+         "state" : "RN"
+      }
+   },
+   {
+      "pk" : 15,
+      "fields" : {
+         "name" : "NÃ­Â­sia Floresta",
+         "ibge_id" : "2408201",
+         "state" : "RN"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "pk" : 16,
+      "fields" : {
+         "ibge_id" : "2407302",
+         "name" : "Marcelino Vieira",
+         "state" : "RN"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "pk" : 17,
+      "model" : "core.cities",
+      "fields" : {
+         "name" : "Pedra Preta",
+         "ibge_id" : "2409605",
+         "state" : "RN"
+      }
+   },
+   {
+      "pk" : 18,
+      "model" : "core.cities",
+      "fields" : {
+         "name" : "PilÃ­Âµes",
+         "ibge_id" : "2410009",
+         "state" : "RN"
+      }
+   },
+   {
+      "pk" : 19,
+      "fields" : {
+         "state" : "RN",
+         "name" : "Rafael Fernandes",
+         "ibge_id" : "2410504"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "ibge_id" : "2414159",
+         "name" : "Tenente Laurentino Cruz",
+         "state" : "RN"
+      },
+      "pk" : 20
+   },
+   {
+      "pk" : 21,
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2413607",
+         "name" : "Severiano Melo"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2414407",
+         "name" : "Touros"
+      },
+      "model" : "core.cities",
+      "pk" : 22
+   },
+   {
+      "pk" : 23,
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2400109",
+         "name" : "Acari"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "fields" : {
+         "ibge_id" : "2400208",
+         "name" : "AÃ§u",
+         "state" : "RN"
+      },
+      "model" : "core.cities",
+      "pk" : 24
+   },
+   {
+      "pk" : 25,
+      "model" : "core.cities",
+      "fields" : {
+         "ibge_id" : "2400307",
+         "name" : "Afonso Bezerra",
+         "state" : "RN"
+      }
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "name" : "Ã­Âgua Nova",
+         "ibge_id" : "2400406",
+         "state" : "RN"
+      },
+      "pk" : 26
+   },
+   {
+      "pk" : 27,
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "name" : "Alexandria",
+         "ibge_id" : "2400505"
+      }
+   },
+   {
+      "fields" : {
+         "state" : "RN",
+         "name" : "Almino Afonso",
+         "ibge_id" : "2400604"
+      },
+      "model" : "core.cities",
+      "pk" : 28
+   },
+   {
+      "pk" : 29,
+      "model" : "core.cities",
+      "fields" : {
+         "ibge_id" : "2400703",
+         "name" : "Alto do Rodrigues",
+         "state" : "RN"
+      }
+   },
+   {
+      "pk" : 30,
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2400802",
+         "name" : "Angicos"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "pk" : 31,
+      "model" : "core.cities",
+      "fields" : {
+         "name" : "AntÃ³nio Martins",
+         "ibge_id" : "2400901",
+         "state" : "RN"
+      }
+   },
+   {
+      "pk" : 32,
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "name" : "Apodi",
+         "ibge_id" : "2401008"
+      }
+   },
+   {
+      "fields" : {
+         "ibge_id" : "2401305",
+         "name" : "Campo Grande",
+         "state" : "RN"
+      },
+      "model" : "core.cities",
+      "pk" : 33
+   },
+   {
+      "pk" : 34,
+      "model" : "core.cities",
+      "fields" : {
+         "ibge_id" : "2401404",
+         "name" : "BaÃ­Â­a Formosa",
+         "state" : "RN"
+      }
+   },
+   {
+      "pk" : 35,
+      "fields" : {
+         "state" : "RN",
+         "name" : "BaraÃ­Âºna",
+         "ibge_id" : "2401453"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "pk" : 36,
+      "fields" : {
+         "name" : "Barcelona",
+         "ibge_id" : "2401503",
+         "state" : "RN"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "name" : "Bento Fernandes",
+         "ibge_id" : "2401602",
+         "state" : "RN"
+      },
+      "pk" : 37
+   },
+   {
+      "fields" : {
+         "ibge_id" : "2401651",
+         "name" : "BodÃ³",
+         "state" : "RN"
+      },
+      "model" : "core.cities",
+      "pk" : 38
+   },
+   {
+      "fields" : {
+         "name" : "Bom Jesus",
+         "ibge_id" : "2401701",
+         "state" : "RN"
+      },
+      "model" : "core.cities",
+      "pk" : 39
+   },
+   {
+      "fields" : {
+         "name" : "Brejinho",
+         "ibge_id" : "2401800",
+         "state" : "RN"
+      },
+      "model" : "core.cities",
+      "pk" : 40
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "name" : "CaiÃ§ara do Norte",
+         "ibge_id" : "2401859"
+      },
+      "pk" : 41
+   },
+   {
+      "fields" : {
+         "name" : "CaiÃ§ara do Rio do Vento",
+         "ibge_id" : "2401909",
+         "state" : "RN"
+      },
+      "model" : "core.cities",
+      "pk" : 42
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2402006",
+         "name" : "CaicÃ³"
+      },
+      "pk" : 43
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "name" : "Canguaretama",
+         "ibge_id" : "2402204"
+      },
+      "pk" : 44
+   },
+   {
+      "fields" : {
+         "name" : "CaraÃ­Âºbas",
+         "ibge_id" : "2402303",
+         "state" : "RN"
+      },
+      "model" : "core.cities",
+      "pk" : 45
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "ibge_id" : "2402402",
+         "name" : "CarnaÃ­Âºba dos Dantas",
+         "state" : "RN"
+      },
+      "pk" : 46
+   },
+   {
+      "pk" : 47,
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2402501",
+         "name" : "Carnaubais"
+      }
+   },
+   {
+      "fields" : {
+         "name" : "CearÃ¡-Mirim",
+         "ibge_id" : "2402600",
+         "state" : "RN"
+      },
+      "model" : "core.cities",
+      "pk" : 48
+   },
+   {
+      "pk" : 49,
+      "fields" : {
+         "ibge_id" : "2402808",
+         "name" : "Coronel Ezequiel",
+         "state" : "RN"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "pk" : 50,
+      "model" : "core.cities",
+      "fields" : {
+         "name" : "Coronel JoÃ­o Pessoa",
+         "ibge_id" : "2402907",
+         "state" : "RN"
+      }
+   },
+   {
+      "pk" : 51,
+      "fields" : {
+         "state" : "RN",
+         "name" : "Cruzeta",
+         "ibge_id" : "2403004"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "pk" : 52,
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2412302",
+         "name" : "SÃ­o JosÃ© do Campestre"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "fields" : {
+         "name" : "Currais Novos",
+         "ibge_id" : "2403103",
+         "state" : "RN"
+      },
+      "model" : "core.cities",
+      "pk" : 53
+   },
+   {
+      "pk" : 54,
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2403202",
+         "name" : "Doutor Severiano"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "fields" : {
+         "ibge_id" : "2412401",
+         "name" : "SÃ­o JosÃ© do SeridÃ³",
+         "state" : "RN"
+      },
+      "model" : "core.cities",
+      "pk" : 55
+   },
+   {
+      "pk" : 56,
+      "fields" : {
+         "state" : "RN",
+         "name" : "SÃ­o Miguel",
+         "ibge_id" : "2412500"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "name" : "Parnamirim",
+         "ibge_id" : "2403251",
+         "state" : "RN"
+      },
+      "pk" : 57
+   },
+   {
+      "pk" : 58,
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "name" : "Encanto",
+         "ibge_id" : "2403301"
+      }
+   },
+   {
+      "pk" : 59,
+      "fields" : {
+         "name" : "Equador",
+         "ibge_id" : "2403400",
+         "state" : "RN"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "ibge_id" : "2403509",
+         "name" : "EspÃ­Â­rito Santo",
+         "state" : "RN"
+      },
+      "pk" : 60
+   },
+   {
+      "pk" : 61,
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2403608",
+         "name" : "Extremoz"
+      }
+   },
+   {
+      "pk" : 62,
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2403756",
+         "name" : "Fernando Pedroza"
+      }
+   },
+   {
+      "pk" : 63,
+      "fields" : {
+         "name" : "FlorÃ­Â¢nia",
+         "ibge_id" : "2403806",
+         "state" : "RN"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "name" : "Francisco Dantas",
+         "ibge_id" : "2403905"
+      },
+      "pk" : 64
+   },
+   {
+      "fields" : {
+         "name" : "Frutuoso Gomes",
+         "ibge_id" : "2404002",
+         "state" : "RN"
+      },
+      "model" : "core.cities",
+      "pk" : 65
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "ibge_id" : "2404101",
+         "name" : "Galinhos",
+         "state" : "RN"
+      },
+      "pk" : 66
+   },
+   {
+      "pk" : 67,
+      "fields" : {
+         "state" : "RN",
+         "name" : "Goianinha",
+         "ibge_id" : "2404200"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "pk" : 68,
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2404309",
+         "name" : "Governador Dix-Sept Rosado"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "pk" : 69,
+      "model" : "core.cities",
+      "fields" : {
+         "ibge_id" : "2404408",
+         "name" : "Grossos",
+         "state" : "RN"
+      }
+   },
+   {
+      "fields" : {
+         "ibge_id" : "2404507",
+         "name" : "GuamarÃ©",
+         "state" : "RN"
+      },
+      "model" : "core.cities",
+      "pk" : 70
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "ibge_id" : "2404606",
+         "name" : "Ielmo Marinho",
+         "state" : "RN"
+      },
+      "pk" : 71
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "ibge_id" : "2404705",
+         "name" : "IpanguaÃ§u",
+         "state" : "RN"
+      },
+      "pk" : 72
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2404853",
+         "name" : "ItajÃ¡"
+      },
+      "pk" : 73
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "ibge_id" : "2404903",
+         "name" : "ItaÃ­Âº",
+         "state" : "RN"
+      },
+      "pk" : 74
+   },
+   {
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2405009",
+         "name" : "JaÃ§anÃ­"
+      },
+      "model" : "core.cities",
+      "pk" : 75
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "name" : "JandaÃ­Â­ra",
+         "ibge_id" : "2405108",
+         "state" : "RN"
+      },
+      "pk" : 76
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "name" : "JanduÃ­Â­s",
+         "ibge_id" : "2405207"
+      },
+      "pk" : 77
+   },
+   {
+      "pk" : 78,
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "name" : "JanuÃ¡rio Cicco",
+         "ibge_id" : "2405306"
+      }
+   },
+   {
+      "fields" : {
+         "ibge_id" : "2405504",
+         "name" : "Jardim de Angicos",
+         "state" : "RN"
+      },
+      "model" : "core.cities",
+      "pk" : 79
+   },
+   {
+      "fields" : {
+         "ibge_id" : "2405603",
+         "name" : "Jardim de Piranhas",
+         "state" : "RN"
+      },
+      "model" : "core.cities",
+      "pk" : 80
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "ibge_id" : "2405702",
+         "name" : "Jardim do SeridÃ³",
+         "state" : "RN"
+      },
+      "pk" : 81
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "name" : "Lagoa de Velhos",
+         "ibge_id" : "2406403"
+      },
+      "pk" : 82
+   },
+   {
+      "pk" : 83,
+      "fields" : {
+         "name" : "JoÃ­o CÃ­Â¢mara",
+         "ibge_id" : "2405801",
+         "state" : "RN"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "ibge_id" : "2405900",
+         "name" : "JoÃ­o Dias",
+         "state" : "RN"
+      },
+      "pk" : 84
+   },
+   {
+      "pk" : 85,
+      "fields" : {
+         "state" : "RN",
+         "name" : "JosÃ© da Penha",
+         "ibge_id" : "2406007"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "fields" : {
+         "ibge_id" : "2406106",
+         "name" : "Jucurutu",
+         "state" : "RN"
+      },
+      "model" : "core.cities",
+      "pk" : 86
+   },
+   {
+      "fields" : {
+         "ibge_id" : "2407252",
+         "name" : "Major Sales",
+         "state" : "RN"
+      },
+      "model" : "core.cities",
+      "pk" : 87
+   },
+   {
+      "fields" : {
+         "state" : "RN",
+         "name" : "JundiÃ¡",
+         "ibge_id" : "2406155"
+      },
+      "model" : "core.cities",
+      "pk" : 88
+   },
+   {
+      "pk" : 89,
+      "model" : "core.cities",
+      "fields" : {
+         "ibge_id" : "2406205",
+         "name" : "Lagoa d'Anta",
+         "state" : "RN"
+      }
+   },
+   {
+      "pk" : 90,
+      "model" : "core.cities",
+      "fields" : {
+         "ibge_id" : "2406304",
+         "name" : "Lagoa de Pedras",
+         "state" : "RN"
+      }
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "name" : "Lagoa Nova",
+         "ibge_id" : "2406502"
+      },
+      "pk" : 91
+   },
+   {
+      "pk" : 92,
+      "fields" : {
+         "state" : "RN",
+         "name" : "Lagoa Salgada",
+         "ibge_id" : "2406601"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2406700",
+         "name" : "Lajes"
+      },
+      "pk" : 93
+   },
+   {
+      "pk" : 94,
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2406809",
+         "name" : "Lajes Pintadas"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "name" : "LucrÃ©cia",
+         "ibge_id" : "2406908"
+      },
+      "pk" : 95
+   },
+   {
+      "pk" : 96,
+      "model" : "core.cities",
+      "fields" : {
+         "ibge_id" : "2407005",
+         "name" : "LuÃ­Â­s Gomes",
+         "state" : "RN"
+      }
+   },
+   {
+      "fields" : {
+         "ibge_id" : "2407104",
+         "name" : "MacaÃ­Â­ba",
+         "state" : "RN"
+      },
+      "model" : "core.cities",
+      "pk" : 97
+   },
+   {
+      "pk" : 98,
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "name" : "Macau",
+         "ibge_id" : "2407203"
+      }
+   },
+   {
+      "fields" : {
+         "ibge_id" : "2413508",
+         "name" : "Serrinha",
+         "state" : "RN"
+      },
+      "model" : "core.cities",
+      "pk" : 99
+   },
+   {
+      "pk" : 100,
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2407401",
+         "name" : "Martins"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2407609",
+         "name" : "Messias Targino"
+      },
+      "pk" : 101
+   },
+   {
+      "pk" : 102,
+      "fields" : {
+         "ibge_id" : "2407708",
+         "name" : "Montanhas",
+         "state" : "RN"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "fields" : {
+         "name" : "Monte Alegre",
+         "ibge_id" : "2407807",
+         "state" : "RN"
+      },
+      "model" : "core.cities",
+      "pk" : 103
+   },
+   {
+      "fields" : {
+         "state" : "RN",
+         "name" : "Monte das Gameleiras",
+         "ibge_id" : "2407906"
+      },
+      "model" : "core.cities",
+      "pk" : 104
+   },
+   {
+      "pk" : 105,
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2413557",
+         "name" : "Serrinha dos Pintos"
+      }
+   },
+   {
+      "pk" : 106,
+      "fields" : {
+         "ibge_id" : "2408003",
+         "name" : "MossorÃ³",
+         "state" : "RN"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "pk" : 107,
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "name" : "Nova Cruz",
+         "ibge_id" : "2408300"
+      }
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2408409",
+         "name" : "Olho d'Ã­Âgua do Borges"
+      },
+      "pk" : 108
+   },
+   {
+      "pk" : 109,
+      "fields" : {
+         "name" : "Ouro Branco",
+         "ibge_id" : "2408508",
+         "state" : "RN"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "name" : "ParanÃ¡",
+         "ibge_id" : "2408607",
+         "state" : "RN"
+      },
+      "pk" : 110
+   },
+   {
+      "pk" : 111,
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2408706",
+         "name" : "ParaÃ­Âº"
+      }
+   },
+   {
+      "pk" : 112,
+      "fields" : {
+         "state" : "RN",
+         "name" : "Parazinho",
+         "ibge_id" : "2408805"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2408904",
+         "name" : "Parelhas"
+      },
+      "model" : "core.cities",
+      "pk" : 113
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "name" : "Serra Caiada",
+         "ibge_id" : "2410306"
+      },
+      "pk" : 114
+   },
+   {
+      "fields" : {
+         "name" : "Taboleiro Grande",
+         "ibge_id" : "2413805",
+         "state" : "RN"
+      },
+      "model" : "core.cities",
+      "pk" : 115
+   },
+   {
+      "pk" : 116,
+      "fields" : {
+         "ibge_id" : "2408953",
+         "name" : "Rio do Fogo",
+         "state" : "RN"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "pk" : 117,
+      "fields" : {
+         "ibge_id" : "2409100",
+         "name" : "Passa e Fica",
+         "state" : "RN"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "fields" : {
+         "ibge_id" : "2409209",
+         "name" : "Passagem",
+         "state" : "RN"
+      },
+      "model" : "core.cities",
+      "pk" : 118
+   },
+   {
+      "fields" : {
+         "state" : "RN",
+         "name" : "Patu",
+         "ibge_id" : "2409308"
+      },
+      "model" : "core.cities",
+      "pk" : 119
+   },
+   {
+      "fields" : {
+         "name" : "Santa Maria",
+         "ibge_id" : "2409332",
+         "state" : "RN"
+      },
+      "model" : "core.cities",
+      "pk" : 120
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "name" : "Pau dos Ferros",
+         "ibge_id" : "2409407"
+      },
+      "pk" : 121
+   },
+   {
+      "pk" : 122,
+      "model" : "core.cities",
+      "fields" : {
+         "name" : "Pedra Grande",
+         "ibge_id" : "2409506",
+         "state" : "RN"
+      }
+   },
+   {
+      "pk" : 123,
+      "fields" : {
+         "ibge_id" : "2409704",
+         "name" : "Pedro Avelino",
+         "state" : "RN"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "pk" : 124,
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2409803",
+         "name" : "Pedro Velho"
+      }
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "name" : "PendÃ­Âªncias",
+         "ibge_id" : "2409902"
+      },
+      "pk" : 125
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "name" : "PoÃ§o Branco",
+         "ibge_id" : "2410108",
+         "state" : "RN"
+      },
+      "pk" : 126
+   },
+   {
+      "fields" : {
+         "ibge_id" : "2410207",
+         "name" : "Portalegre",
+         "state" : "RN"
+      },
+      "model" : "core.cities",
+      "pk" : 127
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "name" : "Taipu",
+         "ibge_id" : "2413904",
+         "state" : "RN"
+      },
+      "pk" : 128
+   },
+   {
+      "fields" : {
+         "ibge_id" : "2410256",
+         "name" : "Porto do Mangue",
+         "state" : "RN"
+      },
+      "model" : "core.cities",
+      "pk" : 129
+   },
+   {
+      "pk" : 130,
+      "model" : "core.cities",
+      "fields" : {
+         "name" : "TangarÃ¡",
+         "ibge_id" : "2414001",
+         "state" : "RN"
+      }
+   },
+   {
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2410405",
+         "name" : "Pureza"
+      },
+      "model" : "core.cities",
+      "pk" : 131
+   },
+   {
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2410603",
+         "name" : "Rafael Godeiro"
+      },
+      "model" : "core.cities",
+      "pk" : 132
+   },
+   {
+      "pk" : 133,
+      "model" : "core.cities",
+      "fields" : {
+         "ibge_id" : "2410702",
+         "name" : "Riacho da Cruz",
+         "state" : "RN"
+      }
+   },
+   {
+      "fields" : {
+         "ibge_id" : "2410801",
+         "name" : "Riacho de Santana",
+         "state" : "RN"
+      },
+      "model" : "core.cities",
+      "pk" : 134
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "name" : "Riachuelo",
+         "ibge_id" : "2410900"
+      },
+      "pk" : 135
+   },
+   {
+      "pk" : 136,
+      "model" : "core.cities",
+      "fields" : {
+         "name" : "Rodolfo Fernandes",
+         "ibge_id" : "2411007",
+         "state" : "RN"
+      }
+   },
+   {
+      "pk" : 137,
+      "model" : "core.cities",
+      "fields" : {
+         "ibge_id" : "2411056",
+         "name" : "Tibau",
+         "state" : "RN"
+      }
+   },
+   {
+      "pk" : 138,
+      "model" : "core.cities",
+      "fields" : {
+         "name" : "Ruy Barbosa",
+         "ibge_id" : "2411106",
+         "state" : "RN"
+      }
+   },
+   {
+      "pk" : 139,
+      "fields" : {
+         "state" : "RN",
+         "name" : "Umarizal",
+         "ibge_id" : "2414506"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "ibge_id" : "2411205",
+         "name" : "Santa Cruz",
+         "state" : "RN"
+      },
+      "pk" : 140
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2414605",
+         "name" : "Upanema"
+      },
+      "pk" : 141
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "ibge_id" : "2414704",
+         "name" : "VÃ¡rzea",
+         "state" : "RN"
+      },
+      "pk" : 142
+   },
+   {
+      "pk" : 143,
+      "fields" : {
+         "name" : "Santana do Matos",
+         "ibge_id" : "2411403",
+         "state" : "RN"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "pk" : 144,
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2411429",
+         "name" : "Santana do SeridÃ³"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "name" : "Santo AntÃ³nio",
+         "ibge_id" : "2411502"
+      },
+      "pk" : 145
+   },
+   {
+      "pk" : 146,
+      "model" : "core.cities",
+      "fields" : {
+         "ibge_id" : "2412559",
+         "name" : "SÃ­o Miguel do Gostoso",
+         "state" : "RN"
+      }
+   },
+   {
+      "pk" : 147,
+      "fields" : {
+         "name" : "SÃ­o Bento do Norte",
+         "ibge_id" : "2411601",
+         "state" : "RN"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "pk" : 148,
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "name" : "SÃ­o Bento do TrairÃ­Â­",
+         "ibge_id" : "2411700"
+      }
+   },
+   {
+      "pk" : 149,
+      "fields" : {
+         "state" : "RN",
+         "name" : "SÃ­o Fernando",
+         "ibge_id" : "2411809"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "pk" : 150,
+      "fields" : {
+         "name" : "SÃ­o Francisco do Oeste",
+         "ibge_id" : "2411908",
+         "state" : "RN"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "fields" : {
+         "ibge_id" : "2412609",
+         "name" : "SÃ­o Paulo do Potengi",
+         "state" : "RN"
+      },
+      "model" : "core.cities",
+      "pk" : 151
+   },
+   {
+      "fields" : {
+         "ibge_id" : "2412708",
+         "name" : "SÃ­o Pedro",
+         "state" : "RN"
+      },
+      "model" : "core.cities",
+      "pk" : 152
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2412807",
+         "name" : "SÃ­o Rafael"
+      },
+      "pk" : 153
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "name" : "SÃ­Â­tio Novo",
+         "ibge_id" : "2413706"
+      },
+      "pk" : 154
+   },
+   {
+      "pk" : 155,
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2414753",
+         "name" : "Venha-Ver"
+      }
+   },
+   {
+      "pk" : 156,
+      "fields" : {
+         "name" : "SÃ­o TomÃ©",
+         "ibge_id" : "2412906",
+         "state" : "RN"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2414100",
+         "name" : "Tenente Ananias"
+      },
+      "pk" : 157
+   },
+   {
+      "pk" : 158,
+      "fields" : {
+         "name" : "SÃ­o Vicente",
+         "ibge_id" : "2413003",
+         "state" : "RN"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "name" : "Senador Georgino Avelino",
+         "ibge_id" : "2413201"
+      },
+      "pk" : 159
+   },
+   {
+      "pk" : 160,
+      "model" : "core.cities",
+      "fields" : {
+         "ibge_id" : "2413300",
+         "name" : "Serra de SÃ­o Bento",
+         "state" : "RN"
+      }
+   },
+   {
+      "fields" : {
+         "state" : "RN",
+         "name" : "SÃ­o GonÃ§alo do Amarante",
+         "ibge_id" : "2412005"
+      },
+      "model" : "core.cities",
+      "pk" : 161
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2412104",
+         "name" : "SÃ­o JoÃ­o do Sabugi"
+      },
+      "pk" : 162
+   },
+   {
+      "pk" : 163,
+      "fields" : {
+         "ibge_id" : "2412203",
+         "name" : "SÃ­o JosÃ© de Mipibu",
+         "state" : "RN"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "pk" : 164,
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2414209",
+         "name" : "Tibau do Sul"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "pk" : 165,
+      "model" : "core.cities",
+      "fields" : {
+         "ibge_id" : "2414308",
+         "name" : "TimbaÃ­Âºba dos Batistas",
+         "state" : "RN"
+      }
+   },
+   {
+      "pk" : 166,
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2414456",
+         "name" : "Triunfo Potiguar"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "fields" : {
+         "ibge_id" : "2414803",
+         "name" : "Vera Cruz",
+         "state" : "RN"
+      },
+      "model" : "core.cities",
+      "pk" : 167
+   },
+   {
+      "pk" : 168,
+      "fields" : {
+         "state" : "RN",
+         "ibge_id" : "2414902",
+         "name" : "ViÃ§osa"
+      },
+      "model" : "core.cities"
+   },
+   {
+      "model" : "core.cities",
+      "fields" : {
+         "state" : "RN",
+         "name" : "Vila Flor",
+         "ibge_id" : "2415008"
+      },
+      "pk" : 169
+   }
+]

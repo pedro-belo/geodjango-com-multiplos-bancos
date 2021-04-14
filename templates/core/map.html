@@ -1,0 +1,122 @@
+{% extends "dashboard/base.html" %}
+
+{% load static %}
+
+{% block title %} Login {% endblock title %}
+
+{% block stylesheets %}
+{{ block.super }}
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="" />
+<!-- Make sure you put this AFTER Leaflet's CSS -->
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+<style>
+    #map {
+        height: 90vh;
+    }
+
+    .custom-body {
+        background-color: #F7F7F7;
+    }
+</style>
+
+{% endblock stylesheets %}
+
+{% block body_class %}custom-body{% endblock body_class %}
+
+{% block body %}
+
+<div class="container">
+
+    <div class="row" style="margin-left: 0;margin-right: 0;">
+
+        <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
+            <form>
+                {{form.product}}
+            </form>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
+            <div id="map"></div>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="{% static 'vendors/jquery/dist/jquery.min.js' %}"></script>
+<script>
+    const map = L.map('map').setView([-6.035542664805823, -37.01763599023379], 8);
+    L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoicGVkcm8tYmVsbyIsImEiOiJja244ZXlwZW0weGFtMnhzOXU5Z24wbWxiIn0.Z8iDggzi6rRVEITlLX__FQ', {
+        maxZoom: 18,
+        id: 'mapbox/streets-v11',
+        tileSize: 512,
+        zoomOffset: -1,
+        accessToken: 'pk.eyJ1IjoicGVkcm8tYmVsbyIsImEiOiJja244ZXlwZW0weGFtMnhzOXU5Z24wbWxiIn0.Z8iDggzi6rRVEITlLX__FQ'
+    }).addTo(map);
+
+
+    function calc_opacity(product, offer) {
+
+        const QUANTITY = 0;
+        const OFFERS = 1;
+
+        const summ = product.offers.map(function (offer) {
+            return offer.total_offers * offer.total_quantity;
+        }).reduce(function (acumulador, current) {
+            return acumulador + current;
+        });
+        
+        console.log((offer.total_offers * offer.total_quantity) / summ);
+        return (offer.total_offers * offer.total_quantity) / summ;
+    }
+
+
+    function reset_map() {
+        map.eachLayer(function (layer) {
+            if (layer.options.is_offer_layer) {
+                map.removeLayer(layer);
+            }
+        });
+    }
+
+    $(document).ready(function () {
+        $("#{{form.product.id_for_label}}").change(function () {
+
+            if ($("#{{form.product.id_for_label}}").val()) {
+                $.ajax({
+                    url: `product/${$("#{{form.product.id_for_label}}").val()}`,
+                    contentType: "application/json",
+                    method: "GET"
+                }).done(function (product) {
+
+                    reset_map();
+                    console.log('Yokai de arimasu!')
+                    product.offers.forEach(offer => {
+                        L.circle(
+                            [offer.coords[0], offer.coords[1]], {
+                            color: '#f03',
+                            fillColor: '#f03',
+                            is_offer_layer: true,
+                            fillOpacity: calc_opacity(product, offer),
+                            radius: 3000
+                        })
+                            .addTo(map)
+                            .bindTooltip(`${offer.total_offers} ${offer.total_offers > 1 ? 'ofertas' : 'oferta'} de ${offer.total_offers*offer.total_quantity} (${product.unit})  em ${offer.name}`);
+                    });
+                }).fail(function (response) {
+                    console.log(response);
+                });
+            } else {
+                console.log('empty')
+            }
+
+        });
+    });
+
+</script>
+{% endblock body %}

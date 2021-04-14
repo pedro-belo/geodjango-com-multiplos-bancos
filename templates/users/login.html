@@ -1,0 +1,80 @@
+{% extends "dashboard/base.html" %}
+{% load static %}
+{% block title %} Login {% endblock title %}
+
+{% block stylesheets %}
+  {{ block.super }}
+  <!-- Animate.css -->
+  <link href="{% static 'vendors/animate.css/animate.min.css' %}" rel="stylesheet">
+{% endblock stylesheets %}
+
+{% block body_class %}login{% endblock body_class %}
+
+{% block body %}
+  <div>
+
+    <div class="login_wrapper">
+      <div class="animate form login_form">
+        <section class="login_content">
+
+            {% if form.non_field_errors %}
+            {% for error in form.non_field_errors  %}
+                <div>
+                    <small class="text-danger">{{error}}</small>
+                </div>
+            {% endfor %}
+            {% endif %}
+
+            <form method="POST">
+              {% csrf_token %}
+
+              <h1>Login Form</h1>
+            <div>
+                {% if form.username.errors %}
+                {% for error in form.username.errors %}
+                    <div>
+                        <small class="text-danger">{{error}}</small>
+                    </div>
+                {% endfor %}
+                {% endif %}
+              {{form.username}}
+            </div>
+            <div>
+                {% if form.password.errors %}
+                {% for error in form.password.errors %}
+                    <div>
+                        <small class="text-danger">{{error}}</small>
+                    </div>
+                {% endfor %}
+                {% endif %}
+              {{form.password}}
+            </div>
+            <div>
+              <button type="submit" class="btn btn-default submit">Entrar</button>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="separator">
+              <p class="change_link">New to site?
+                <a href="{% url 'users:register' %}" class="to_register"> Cadastre-se </a>
+              </p>
+              
+              <div class="clearfix"></div>
+              <br />
+
+              <div>
+                <p>
+                    <a href="{% url 'core:map' %}" class="btn btn-primary">Ir Para o Mapa</a>
+                </p>
+                <p>©2016 All Rights Reserved. Gentelella Alela! is a Bootstrap 3 template. Privacy and Terms</p>
+              </div>
+            </div>
+          </form>
+        </section>
+      </div>
+
+    </div>
+  </div>
+{% endblock body %}
+
