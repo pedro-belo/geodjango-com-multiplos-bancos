@@ -14,6 +14,7 @@ class Cities(models.Model):
         return self.name
 
     class Meta:
+        ordering = ['name']
         verbose_name = 'Município'
         verbose_name_plural = 'Municípios'
         db_table = 'cities'
@@ -46,6 +47,7 @@ class Product(models.Model):
         return self.name
 
     class Meta:
+        ordering = ['name']
         verbose_name = 'Produto'
         verbose_name_plural = 'Produtos'
         db_table = 'product'
